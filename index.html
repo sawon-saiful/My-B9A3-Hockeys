@@ -95,7 +95,7 @@
                 </div>
             </div>
         </nav>
-        <div>
+        <div class="mt-12">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="Images/1.png" class="w-full" />
@@ -716,41 +716,43 @@
             </div>
         </section>
     </main>
-    <footer class="   mt-24 p-12 lg:p-32 bg-neutral lg:h-96 text-neutral-content">
-        <div class="footer px-0 w-[1536px] mx-auto">
-            <nav>
-                <header class="footer-title">Get In Touch</header>
-                <a class="link link-hover">Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis 
+    <footer class=" text-center  md:text-left  mt-24 p-12 lg:p-32 bg-neutral lg:h-96 text-neutral-content">
+        <div class="footer px-0 max-w-[1536px] w-full mx-auto">
+            <nav class="flex flex-col justify-center items-center md:items-start mx-auto md:mx-0">
+                <header class="footer-title text-white text-center md:text-left">Get In Touch</header>
+                <a class="link link-hover">Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis
                     Purus <br>urna in sit nullam proin. </a>
                 <div>
-                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-solid fa-envelope text-red-600"></i>
                     <span class="pl-3">hockeys@support.com</span>
 
                 </div>
                 <div class="">
-                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-phone text-red-600"></i>
                     <span class="pl-3">(+62) 123-321-543
                     </span>
 
                 </div>
             </nav>
-            <nav>
-                <header class="footer-title">Company</header>
-                <a class="link link-hover">About us</a>
-                <a class="link link-hover">Leadership</a>
-                <a class="link link-hover">Careers</a>
-                <a class="link link-hover">News & Articles</a>
-                <a class="link link-hover">Legal Notice</a>
-            </nav>
-            <nav>
-                <header class="footer-title">Support</header>
-                <a class="link link-hover">Help Center</a>
-                <a class="link link-hover">FAQ</a>
-                <a class="link link-hover">Ticktet Support</a>
-                <a class="link link-hover">Contact Us</a>
-            </nav>
-            <nav>
-                <header class="footer-title">Services</header>
+            <div class="flex md:flex-row w-full justify-center md:justify-between gap-10">
+                <nav class=" flex flex-col ">
+                    <header class="footer-title text-white text-center md:text-left">Company</header>
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Leadership</a>
+                    <a class="link link-hover">Careers</a>
+                    <a class="link link-hover">News & Articles</a>
+                    <a class="link link-hover">Legal Notice</a>
+                </nav>
+                <nav class=" flex flex-col ">
+                    <header class="footer-title text-white text-center md:text-left">Support</header>
+                    <a class="link link-hover">Help Center</a>
+                    <a class="link link-hover">FAQ</a>
+                    <a class="link link-hover">Ticktet Support</a>
+                    <a class="link link-hover">Contact Us</a>
+                </nav>
+            </div>
+            <nav class="md:ml-auto mx-auto md:mx-0 flex flex-col justify-center items-center md:items-start ">
+                <header class="footer-title text-white text-center md:text-left">Services</header>
                 <a class="link link-hover">Academy</a>
                 <a class="link link-hover">Group Lesson</a>
                 <a class="link link-hover">private lesson</a>
